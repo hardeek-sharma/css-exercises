@@ -20,6 +20,7 @@
 
 .header {
   background-color: #393f4d;
+  grid-area: 1 / 1 / 2 / -1;
 }
 
 .menu ul,
@@ -29,6 +30,7 @@
 
 .sidebar {
   background-color: #C50208;
+  grid-area: 2 / 1 / -2 / 2;
 }
 
 .sidebar .photo {
@@ -49,6 +51,7 @@
 
 .nav {
   background-color: #C50208;
+  grid-area: 2 / 2 / 3 / -1;
 }
 
 .nav ul li {
@@ -58,6 +61,7 @@
 
 .article {
   background-color: #bccbde;
+  grid-area: 3 / 2 / -2 / -1;
 }
 
 .article p {
@@ -86,6 +90,7 @@
 
 .footer {
   background-color: #393f4d;
+  grid-area: -2 / 1 / -1 / -1
 }
 
 .footer p {
