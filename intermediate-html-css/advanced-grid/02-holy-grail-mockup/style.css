@@ -4,7 +4,10 @@
 }
 
 .container {
+  height: 100vh;
   text-align: center;
+  display: grid;
+  grid-template: 2fr 1fr 10fr 1fr / 1fr 4fr;
 }
 
 .container div {
