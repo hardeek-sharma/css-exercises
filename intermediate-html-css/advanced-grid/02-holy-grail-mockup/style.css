@@ -8,7 +8,7 @@
   height: 100vh;
   text-align: center;
   display: grid;
-  grid-template: 2fr 1fr 10fr 1fr / 1fr 4fr;
+  grid-template: 1fr 1fr 10fr 1fr / 1fr 4fr;
   gap: 4px;
 }
 
@@ -23,11 +23,29 @@
 .header {
   background-color: #393f4d;
   grid-area: 1 / 1 / 2 / -1;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+.logo {
+  display: grid;
+  align-items: center;
+}
+
+.menu {
+  display: grid;
 }
 
 .menu ul,
 .menu li {
   font-size: 16px;
+  list-style: none;
+}
+
+.menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
 }
 
 .sidebar {
