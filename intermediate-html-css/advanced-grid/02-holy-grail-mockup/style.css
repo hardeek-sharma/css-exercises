@@ -79,11 +79,19 @@
 .nav {
   background-color: #C50208;
   grid-area: 2 / 2 / 3 / -1;
+  display: grid;
+  align-items: center;
+}
+
+.nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .article {
