@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 1px solid gray;
 }
 
 .container {
@@ -130,7 +129,9 @@
 
 .footer {
   background-color: #393f4d;
-  grid-area: -2 / 1 / -1 / -1
+  grid-area: -2 / 1 / -1 / -1;
+  display: grid;
+  align-items: center;
 }
 
 .footer p {
